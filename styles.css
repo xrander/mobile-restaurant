@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: "Smythe", system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+}
+.container {
+    width: 37.5rem;
+    max-width: 37.5rem;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.header-img {
+    background-image: url('./img/header-image.png');
+    height: 10.5rem;
+    width: 100%;
+    background-size: cover;
+    color: #FFFFFF;
+    padding-left: 3rem;
+    margin-bottom: 4rem;
+}
+
+h1 {
+    font-size: 2.44rem;
+    padding-top: 2rem;
+}
+
+.header-img p {
+    font-size: 1.4rem;
+}
+
+.menu-item {
+    width: 31.5rem;
+    height: 8.75rem;
+    border-bottom: 1px solid #D2D2D2;
+    margin: 0 auto 3rem auto;
+    padding-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+.item-details {
+    display: inherit;
+    gap: 2rem;   
+}
+.menu-item-img {
+    width: 4.375rem;
+    height: 5.56rem;
+}
+
+.menu-item-title {
+    font-size: 1.75rem;
+}
+
+.menu-item-description
+.menu-item-price {
+    font-size: 1.5rem;   
+}
+
+.menu-item-description {
+    color: #8B8B8B;
+}
+
+
+.btn {
+    border-radius: 50%;
+    width: 3.125rem;
+    height: 3.125rem;
+    border: 2px solid #DEDEDE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 auto;
+    background-color: transparent;
+}
+
+.btn:hover {
+    background-color: burlywood;
+}
+
+i {
+    color: #000000;
+    font-size: 1.67rem;
+}
+
